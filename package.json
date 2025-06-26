@@ -12,9 +12,9 @@
     "@babel/preset-react": "^7.20.0"
   },
   "scripts": {
-    "build": "babel src --out-out dist --extensions \".js,.jsx,.ts,.tsx\"",
-    "login": "adalo login",
-    "publish": "adalo publish"
+  "build": "babel src --out-dir dist --extensions \".js,.jsx,.ts,.tsx\"", 
+  "login": "adalo login",
+  "publish": "adalo publish"
   },
   "browserslist": {
     "production": [
