@@ -1,0 +1,16 @@
+{
+  "name": "Adalo Custom Calendar",
+  "version": "1.0.0",
+  "displayName": "ActiveTopia Calendar",
+  "componentId": "active-topia-calendar",
+  "description": "A custom calendar component for ActiveTopia.",
+  "icon": "calendar",
+  "props": [
+    {
+      "name": "title",
+      "displayName": "Calendar Title",
+      "type": "string",
+      "default": "My Calendar"
+    }
+  ]
+}

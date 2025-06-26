@@ -1,0 +1,30 @@
+{
+  "name": "active-topia-calendar-component",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.0",
+    "@babel/core": "^7.20.0",
+    "@babel/preset-react": "^7.20.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist --extensions \".js,.jsx,.ts,.tsx\""
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+
